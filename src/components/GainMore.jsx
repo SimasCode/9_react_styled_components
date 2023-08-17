@@ -4,7 +4,7 @@ export default function GainMore() {
   return (
     <div>
       <SectionTitle
-        left
+        left={true}
         pill='features'
         title='Gain more insight into how people use your'
         subtitle='With our integrated CRM, project management, collaboration and invoicing capabilities, you can manage every aspect of your business in one secure platform.'
