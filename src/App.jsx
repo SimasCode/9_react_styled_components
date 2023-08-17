@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Btn from './components/UI/Btn.jsx';
+import Btn from './components/UI/Btn.styled.jsx';
 
 const MainTitle = styled.h1`
   color: tomato;
@@ -17,7 +17,8 @@ export default function App() {
   return (
     <Wrap>
       <MainTitle>Styled components</MainTitle>
-      <Btn>Get Started</Btn>
+      <Btn>Learn more</Btn>
+      <Btn secondary>Read more</Btn>
     </Wrap>
   );
 }
