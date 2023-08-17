@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 import Btn, { GrayBtn } from './components/UI/Btn.styled.jsx';
+import GlobalStyle from './components/GlobalStyle.jsx';
+import GainMore from './components/GainMore.jsx';
 
 const MainTitle = styled.h1`
   color: tomato;
@@ -16,10 +18,15 @@ const Wrap = styled.div`
 export default function App() {
   return (
     <Wrap>
+      <GlobalStyle />
       <MainTitle>Styled components</MainTitle>
-      <Btn>Learn more</Btn>
+      <GainMore />
+      {/* <Btn>Learn more</Btn> */}
       {/* <Btn secondary>Read more</Btn> */}
-      <GrayBtn>Read more</GrayBtn>
+      {/* <GrayBtn>Read more</GrayBtn> */}
+      {/* <Btn as='a' href='#'>
+        Nuoroda kaip button
+      </Btn> */}
     </Wrap>
   );
 }
